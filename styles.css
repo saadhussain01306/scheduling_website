@@ -2,7 +2,12 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   margin: 20px;
-  background-color: #f9f9f9;
+  background-color: #e6f7ff; /* Light blue background color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensure the container stretches to at least the full viewport height */
 }
 
 h1 {
@@ -34,6 +39,9 @@ select {
 
 #inputFields {
   margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #timeQuantumContainer {
@@ -57,6 +65,9 @@ button:hover {
 
 #result {
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #ganttChart {
